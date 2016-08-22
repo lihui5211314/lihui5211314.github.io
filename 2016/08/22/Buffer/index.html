@@ -3,14 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo</title>
+  <title>Buffer | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="1. 什么是Buffer缓冲区Buffer是暂时存放输入输出数据的一段内存。JS语言没有二进制数据类型，而在处理TCP和文件流的时候，必须要处理二进制数据。NodeJS提供了一个Buffer对象来提供对二进制数据的操作是一个表示固定内存分配的全局对象，也就是说要放到缓存区中的字节数需要提前确定Buffer好比由一个多位字节元素组成的数组，可以有效的在javascript中表示二进制数据
+2. 什么">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Buffer">
+<meta property="og:url" content="http://yoursite.com/2016/08/22/Buffer/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1. 什么是Buffer缓冲区Buffer是暂时存放输入输出数据的一段内存。JS语言没有二进制数据类型，而在处理TCP和文件流的时候，必须要处理二进制数据。NodeJS提供了一个Buffer对象来提供对二进制数据的操作是一个表示固定内存分配的全局对象，也就是说要放到缓存区中的字节数需要提前确定Buffer好比由一个多位字节元素组成的数组，可以有效的在javascript中表示二进制数据
+2. 什么">
+<meta property="og:updated_time" content="2016-08-22T15:03:37.962Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Buffer">
+<meta name="twitter:description" content="1. 什么是Buffer缓冲区Buffer是暂时存放输入输出数据的一段内存。JS语言没有二进制数据类型，而在处理TCP和文件流的时候，必须要处理二进制数据。NodeJS提供了一个Buffer对象来提供对二进制数据的操作是一个表示固定内存分配的全局对象，也就是说要放到缓存区中的字节数需要提前确定Buffer好比由一个多位字节元素组成的数组，可以有效的在javascript中表示二进制数据
+2. 什么">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,9 +66,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Buffer" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Buffer" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/08/22/Buffer/" class="article-date">
   <time datetime="2016-08-22T14:39:12.000Z" itemprop="datePublished">2016-08-22</time>
@@ -74,8 +79,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/08/22/Buffer/">Buffer</a>
+    <h1 class="article-title" itemprop="name">
+      Buffer
     </h1>
   
 
@@ -125,179 +130,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-模块的分类" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/08/22/模块的分类/" class="article-date">
-  <time datetime="2016-08-22T13:39:42.000Z" itemprop="datePublished">2016-08-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/08/22/模块的分类/">模块的分类</a>
-    </h1>
+    <a href="/2016/08/22/模块的分类/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title">模块的分类</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="模块的分类"><a href="#模块的分类" class="headerlink" title="模块的分类"></a>模块的分类</h1><p>文件模块 同./方式引入的都是文件模块<br>第三方模块  需要安装的<br>核心模块http url fs  node中自带的</p>
-<h2 id="核心工具模块util-工具类"><a href="#核心工具模块util-工具类" class="headerlink" title="核心工具模块util 工具类"></a>核心工具模块util 工具类</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">var util = require(&apos;util&apos;);</div></pre></td></tr></table></figure>
-<h2 id="1-继承方法inherits"><a href="#1-继承方法inherits" class="headerlink" title="1.继承方法inherits"></a>1.继承方法inherits</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">util.inherits()</div></pre></td></tr></table></figure>
-<h2 id="js中的继承"><a href="#js中的继承" class="headerlink" title="js中的继承"></a>js中的继承</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">function Parent() &#123;</div><div class="line">       this.name = &apos;parent&apos;;</div><div class="line">       this.age = 8;</div><div class="line">   &#125;</div><div class="line">Parent.prototype.eat = function () &#123;</div><div class="line">       console.log(&apos;eat&apos;);</div><div class="line">   &#125;</div><div class="line">function Child() &#123;</div><div class="line">       this.name = &apos;child&apos;</div><div class="line">   &#125;</div><div class="line">Child.prototype.drink = function () &#123;</div><div class="line">       console.log(&apos;drink&apos;);</div><div class="line">   &#125;;</div></pre></td></tr></table></figure>
-<h3 id="原型链"><a href="#原型链" class="headerlink" title="原型链"></a>原型链</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">Child.prototype = Object.create(Parent.prototype);</div><div class="line">Child.prototype =  new Parent(); //继承私有的 call</div><div class="line">Child.prototype.__proto__ = Parent.prototype;</div><div class="line">Child.prototype = Parent.prototype;</div><div class="line">util.inherits(Child,Parent); //原理就是Object.create方法</div><div class="line">var c = new Child();</div><div class="line">c.eat();</div></pre></td></tr></table></figure>
-<h2 id="解析-是用来解析对象的-console-dir"><a href="#解析-是用来解析对象的-console-dir" class="headerlink" title="解析  是用来解析对象的 console.dir"></a>解析  是用来解析对象的 console.dir</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">var obj  = &#123;</div><div class="line">    name:&apos;lily&apos;,</div><div class="line">    language:&#123;</div><div class="line">        name:&apos;Chinese&apos;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h2 id="增加属性"><a href="#增加属性" class="headerlink" title="增加属性"></a>增加属性</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">Object.defineProperty(obj,&apos;age&apos;,&#123;</div><div class="line">    value:&apos;8&apos;, //当前定义属性的值</div><div class="line">    enumerable:false,//是否可枚举</div><div class="line">    writable:true,//是否可写</div><div class="line">    configurable:false,//是否可配置</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-<p>delete obj.age<br>showHidden 显示隐藏属性<br>depth 解析的深度<br>colors 输出的时候带颜色<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">console.log(util.inspect(obj,&#123;showHidden:true,depth:1,colors:true&#125;));</div></pre></td></tr></table></figure></p>
-<h2 id="判断类型"><a href="#判断类型" class="headerlink" title="判断类型"></a>判断类型</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">console.log(util.isArray([]));</div><div class="line">console.log(util.isError(new RegExp()));</div><div class="line">console.log(util.isRegExp(new Error()));</div></pre></td></tr></table></figure>
-<h2 id="第三方模块"><a href="#第三方模块" class="headerlink" title="第三方模块"></a>第三方模块</h2><p>我们引入第三模块是不要路径的./直接引用模块的名字<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">var mime = require(&apos;mime&apos;);//会自动搜索package.json里的main属性 mine.js</div></pre></td></tr></table></figure></p>
-<p>自己写的模块 要注意<br>当我们安装一个模块会就近安装 找最近目录一直往上找，知道找到node_modules文件夹，如果找不到在自己的目录下创建<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">console.log(module.paths);//模块的查找路径</div><div class="line">var jwpack = require(&apos;jwpack&apos;);</div><div class="line">console.log(jwpack);</div></pre></td></tr></table></figure></p>
-<p>先查找第三方模块中的index.js  index.json 之后在查找对应main的字段</p>
-<h3 id="第三方查找规则"><a href="#第三方查找规则" class="headerlink" title="第三方查找规则"></a>第三方查找规则</h3><p>1.先查找模块的名字,找不到往上找，找到跟目录<br>2.查找index.js index.json<br>3.如果没有index 会找package.json里的main字段<br>我们的文件模块不用指定后缀名默认会自动添加.js后缀，如果找不到在添加.json后缀</p>
-<p>文件 ./  第三方 需要安装 内置 直接使用</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/08/22/模块的分类/" data-id="cis678tn10004hsfkzcwt1aix" class="article-share-link">Partager</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-git" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/08/21/git/" class="article-date">
-  <time datetime="2016-08-21T02:17:32.000Z" itemprop="datePublished">2016-08-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/08/21/git/">git</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>##git</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/08/21/git/" data-id="cis678tmk0000hsfkp0jnl7h1" class="article-share-link">Partager</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-nodejs" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/08/21/nodejs/" class="article-date">
-  <time datetime="2016-08-21T02:06:25.000Z" itemprop="datePublished">2016-08-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/08/21/nodejs/">nodejs</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="node基础"><a href="#node基础" class="headerlink" title="node基础"></a>node基础</h2><h2 id="git基础"><a href="#git基础" class="headerlink" title="git基础"></a>git基础</h2><p>保存到暂存区<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git add .</div></pre></td></tr></table></figure></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/08/21/nodejs/" data-id="cis678tmz0003hsfk1a3xdpnq" class="article-share-link">Partager</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/08/21/hello-world/" class="article-date">
-  <time datetime="2016-08-21T01:45:57.674Z" itemprop="datePublished">2016-08-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/08/21/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/08/21/hello-world/" data-id="cis678tmv0002hsfk972u1s45" class="article-share-link">Partager</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
